@@ -1,0 +1,14 @@
+Embedding process is used instead of doing standard data preprocessing to prevent lost of valuable information. using embedding data which can available on kaggle is 
+proprocessed text use to check the cleansing status of dataframe.
+
+
+
+It is better to get vocabulary as close to embeddings as possible. In order to do that, train vocab and test vocab are created by counting the words in tweets.
+
+Text cleaning is based on the embeddings below:
+
+GloVe-300d-840B
+FastText-Crawl-300d-2M
+
+Data Source: https://www.kaggle.com/datasets/authman/pickled-glove840b300d-for-10sec-loading
+Data Source: https://www.kaggle.com/datasets/authman/pickled-crawl300d2m-for-kernel-competitions
