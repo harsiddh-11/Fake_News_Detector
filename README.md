@@ -1,3 +1,3 @@
 # Fake_News_Detector
 
-This fundamental prurpose of this model is detecting fake news by using data from twitter.
+Using tweets from users and implementing NLP toolkits on text. Predicting successfully whether tweet is disaster or not.
